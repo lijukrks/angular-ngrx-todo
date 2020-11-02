@@ -1,0 +1,24 @@
+{
+    "APP": {
+        "TITLE": "TODO आवेदन",
+        "FOOTER": "कॉपीराइट @2020",
+        "LANGUAGE":"अपनी भाषा का चयन करें:",
+        "THEME":"अपने विषय का चयन करें :"
+    },
+    "LOGIN":{
+        "TITLE":" Login पृष्ठ",
+        "EMAIL":"ईमेल",
+        "PASSWORD":"पासवर्ड",
+        "LOGIN_BUTTON":"लॉग इन",
+        "REGISTER":"रजिस्टर"
+    },
+    "TODO_LIST":{
+        "TITLE":"Todo आवेदन में स्वागत",
+        "LOGOUT":"लॉग आउट",
+        "LIST_TITLE":" नीचे अपनी टूडू सूची दर्ज करें",
+        "SUBMIT":"रस्तुत",
+        "ENTER_TODO":"टूडू दर्ज करें",
+        "SELECT_ALL":"चुनते हैं",
+        "DELETE":"हटाना"
+    }
+}

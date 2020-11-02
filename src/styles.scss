@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+:root {
+    --primary-color: #fff;
+    --background-color: #e5e5e5;
+    --text-color: #2d2d2d;
+    --card-color:#fff;
+  }
+  
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: Lato;
+    padding: 0;
+    margin: 0;
+  }
+
+  .heading-card{
+    border-radius: 1em;
+    margin:2em;
+    border: 2px solid rgba(0, 0, 0, 0.125);
+    background-color: var(--card-color);
+    color: var(--text-color);
+  }
+  .list-group-item{
+    background-color: var(--card-color);
+  }

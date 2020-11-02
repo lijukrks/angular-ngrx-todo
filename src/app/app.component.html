@@ -1,0 +1,36 @@
+<div class="app-root">
+  <header>
+<div class="row app-title">
+  <div class="col-md-9 d-flex app-heading">
+    <h3 id="quote" style="padding-right: 20%;">{{'APP.TITLE'|translate}}</h3> 
+  </div>
+  <div class="col-md-6-flex">
+    <Button (click)="logout()" style="text-align: right;" class="logout">{{'TODO_LIST.LOGOUT' | translate}}</Button>
+  </div>
+</div>
+  </header >
+  <div class="content" >
+    <div>
+      <div class="d-flex">
+        <div class="p-2 translate flex-fill"><label>{{'APP.LANGUAGE' | translate}}</label>
+          <span>
+           <Button class="english"  (click)="toggleLanguage('en')">English</Button>
+          </span>
+          <span>
+           <button  class="english" (click)="toggleLanguage('hi')">Hindi</button>
+          </span></div>
+        <div class="p-2 translate flex-fill"> <label>{{'APP.THEME' | translate}}</label>
+          <span>
+            <Button class="english" (click)="themeSelection('dark')">Dark Theme</Button>
+           </span>
+           <span>
+            <button class="english"   (click)="themeSelection('light')">Light Theme</button>
+           </span></div>
+      </div>
+    </div>
+    <router-outlet></router-outlet>
+  </div>
+  <footer>
+    <p class="footer-copyright" >{{'APP.FOOTER'| translate}}</p>
+  </footer>
+</div>

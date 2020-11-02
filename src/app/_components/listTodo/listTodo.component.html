@@ -1,0 +1,16 @@
+<ul class="list-group list-group-flush " >
+    <li class="list-group-item" *ngFor="let todo of todos ;let i=index">
+        <input type="checkbox"  class="checkbox" (click)="markTodo(i)" [(ngModel)]="todo.completed" [checked]="todo.completed" />
+        &nbsp;
+        <span style="font-size: x-large;text-transform: capitalize;" [ngClass]="{'checked': todo.completed}">{{todo.name}}</span>
+    </li>
+  </ul>
+  <div class="card heading-card">
+    <div *ngIf="!isTasksCompleted" class="card-body">
+      <label><input class="selectAll" type="checkbox" [checked]="selectedAll" (change)="markAllTodos($event)"/>  &nbsp;{{'TODO_LIST.SELECT_ALL' | translate }}</label>
+      <span style="float: right;"><Button *ngIf="!isButtonHidden" id="Button" class="delete-button" (click)="deleteAll()">{{'TODO_LIST.DELETE' | translate}}</Button></span>
+    </div>
+    <div *ngIf="isTasksCompleted" class="card-body">
+      <label>All the tasks are completed</label>
+    </div>
+</div>

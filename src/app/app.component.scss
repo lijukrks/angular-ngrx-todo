@@ -1,0 +1,65 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.app-root {
+
+    min-height: 100vh;
+    
+    display: block;
+    
+    position: relative;
+    
+    padding-bottom: 56px; // height of the footer
+    
+    }
+    
+footer {
+    
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: #0c4d81;
+    color:white;
+    text-align: center;
+    height: 50px;
+    }
+
+header{
+    background: #0c4d81;
+    box-shadow: 0px 4px grey;
+    color:white;
+    text-align: center;
+    height: 50px;
+}
+.color-picker{
+    border-radius: 22px;
+           height: 28px;
+           width: 28px
+}
+.theme{
+    padding-top: 2em;
+}
+.footer-copyright{
+    padding-top: 10px;
+}
+.english{
+    // margin-right: 2em;
+    width: 116px;
+    height: 30px;
+    border-radius: 40px;    
+}
+.theme-col{
+    padding-top: 5px;
+}
+.app-title{
+    padding-top: 8px !important;
+}
+.app-heading{
+    padding-left: 30%;
+}
+.translate{
+    text-align: center;
+}

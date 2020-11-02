@@ -1,0 +1,11 @@
+<div class="card-body">
+  <form  [formGroup]="loginForm">
+    <span>
+      <input placeholder="{{'TODO_LIST.ENTER_TODO' | translate}}" id="tasks" class="todo-input card-title form-control " formControlName="taskName"/>
+    </span>
+    <span>
+      <input type="button" value="{{'TODO_LIST.SUBMIT' | translate}}" class="submit-button" (click)="addTask(loginForm.value)">
+    </span>
+  </form>
+  </div>
+ 

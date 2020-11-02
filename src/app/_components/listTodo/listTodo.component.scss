@@ -1,0 +1,52 @@
+.input.checkbox {
+    width: 20px;
+    height: 20px;
+  }
+
+ .checked {
+    text-decoration: line-through;
+    font-size: x-large;
+    text-transform: capitalize;
+  }
+  .selectAll{
+    font-size: x-large;
+    text-transform: capitalize;
+  }
+  .heading-card{
+    border-radius: 1em;
+    margin:2em;
+    border: 2px solid rgba(0, 0, 0, 0.125);
+  }
+  .heading-content{
+    font-size: x-large;
+    color: chocolate;
+  }
+  .logout{
+    border: 0px;
+    background: #0c4d81;
+    color: white;
+    height: 3em;
+    width: 7em;
+    border-radius: 63px;
+  }
+  .todo-input{
+    width: 84%;
+  }
+  .submit-button{
+    border: 0px;
+    height: 2em;
+    width: 6em;
+    border-radius: 66px;
+    background: green;
+    float: right;
+    color: white;
+  }
+  .delete-button{
+    border: 0px;
+    height: 2em;
+    width: 6em;
+    border-radius: 66px;
+    background: red;
+    float: right;
+    color: white;
+  }

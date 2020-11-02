@@ -1,0 +1,23 @@
+.input.checkbox {
+    width: 20px;
+    height: 20px;
+  }
+
+ .checked {
+    text-decoration: line-through;
+    font-size: x-large;
+    text-transform: capitalize;
+  }
+ 
+  .todo-input{
+    width: 84%;
+  }
+  .submit-button{
+    border: 0px;
+    height: 2em;
+    width: 6em;
+    border-radius: 66px;
+    background: green;
+    float: right;
+    color: white;
+  }

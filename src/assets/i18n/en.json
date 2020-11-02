@@ -1,0 +1,24 @@
+{
+    "APP": {
+        "TITLE": "TODO Application",
+        "FOOTER": "Copyright @2020",
+        "LANGUAGE":"Select your Language:",
+        "THEME": "Select the theme:"
+    },
+    "LOGIN":{
+        "TITLE":"Login Page",
+        "EMAIL":"Email",
+        "PASSWORD":"Password",
+        "LOGIN_BUTTON":"Log in",
+        "REGISTER":"Register"
+    },
+    "TODO_LIST":{
+        "TITLE":"Welcome to Todo Application",
+        "LOGOUT":"Logout",
+        "LIST_TITLE":"Enter your Todo list below",
+        "SUBMIT":"Submit",
+        "ENTER_TODO":"Enter the todo",
+        "SELECT_ALL":"Select All",
+        "DELETE":"Delete"
+    }
+}

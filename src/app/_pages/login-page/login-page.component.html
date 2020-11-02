@@ -1,0 +1,23 @@
+<h1 style="text-align:center;padding-top:10%;">
+   {{'LOGIN.TITLE' | translate}}
+    </h1>
+    <div class="login">
+      <div class="danger" *ngIf="!error">
+        Email or password is incorrect !!!
+      </div>
+      <form [formGroup]="loginForm" class="login-container" (ngSubmit)="login(loginForm.value)">
+        <p>
+          <input type="email" placeholder="{{'LOGIN.EMAIL' | translate}}" formControlName="email">
+        </p>
+        <p>
+          <input type="password" placeholder="{{'LOGIN.PASSWORD' | translate}}" formControlName="password">
+        </p>
+        <p>
+          <input type="submit" value="{{'LOGIN.LOGIN_BUTTON' | translate}}">
+        </p>
+        <div class="register">
+          <a routerLink="/register" class="btn btn-link">{{'LOGIN.REGISTER' | translate}}</a>
+        </div>
+      </form>
+    </div>
+    
